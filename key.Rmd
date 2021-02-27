@@ -80,7 +80,7 @@ number_est <- NbClust(penguins[3:6], min.nc = 2, max.nc = 10, method = "kmeans")
 # Check out the results (just look at the first summary report):
 number_est
 
-# By these estimators, 2 is identified as the best number of clusters by the largest number of algorithms (8 / 30)...but should that change our mind? Maybe...but here I think it makes sense to still stick with 3 (a cluster for each species) and see how it does. 
+
 ```
 
 #### Create a complete, scaled version of the data
